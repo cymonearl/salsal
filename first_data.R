@@ -78,11 +78,6 @@ region_data <- pivot_and_combine_rice_prices(
 sum(is.na(region_data))
 sum(duplicated(region_data))
 
-# Count of missing values
-sum(is.na(data$Price))
-
-# Summary of missing data by Price_Type
-library(dplyr)
 
 region_data %>%
   group_by(Price_Type) %>%
@@ -92,3 +87,77 @@ region_data %>%
 region_data %>%
   group_by(Region) %>%
   summarize(missing = sum(is.na(Price)), total = n(), percent_missing = mean(is.na(Price)) * 100)
+
+# Filter out regions with more than 20% missing data
+region_data_clean <- region_data %>%
+  group_by(Region) %>%
+  mutate(percent_missing = mean(is.na(Price)) * 100) %>%
+  ungroup() %>%
+  filter(percent_missing <= 20)
+
+# Missing Region
+region_data_clean %>%
+  group_by(Region) %>%
+  summarize(missing = sum(is.na(Price)), total = n(), percent_missing = mean(is.na(Price)) * 100)
+
+# Get regions to remove
+regions_to_remove <- region_data %>%
+  group_by(Region) %>%
+  summarize(percent_missing = mean(is.na(Price)) * 100) %>%
+  filter(percent_missing > 20) %>%
+  pull(Region)
+
+# Filter them out
+region_data_clean <- region_data %>%
+  filter(!(Region %in% regions_to_remove))
+
+region_data_imputed <- region_data %>%
+  group_by(Region) %>%
+  mutate(Price = ifelse(is.na(Price), mean(Price, na.rm = TRUE), Price)) %>%
+  ungroup()
+
+# Fill by Median
+overall_median <- median(region_data$Price, na.rm = TRUE)
+
+region_data_imputed <- region_data %>%
+  mutate(Price = ifelse(is.na(Price), overall_median, Price))
+
+region_data_imputed %>%
+  group_by(Region) %>%
+  summarize(missing = sum(is.na(Price)), total = n(), percent_missing = mean(is.na(Price)) * 100)
+
+region_data_imputed |>
+  group_by(Region) |>
+  summarize()
+
+View(region_data_imputed)
+View(region_data)
+
+#Plotting
+
+# Define function to plot price trends by Price_Type
+plot_price_by_type <- function(data, price_type_value) {
+  # Filter the data for the selected Price_Type
+  filtered_data <- data %>%
+    filter(Price_Type == price_type_value)
+  
+  # Create the ggplot
+  ggplot(filtered_data, aes(x = Year, y = Price, color = Region)) +
+    geom_line(size = 1) +
+    geom_point() +
+    labs(title = paste("Price Trend -", price_type_value),
+         x = "Year",
+         y = "Price (PhP/kg)",
+         color = "Region") +
+    theme_minimal()
+}
+
+# Example: Plot for FARMGATE
+plot_price_by_type(region_data, "FARMGATE (PhP/kg)")
+plot_price_by_type(region_data_imputed, "FARMGATE (PhP/kg)")
+
+# Example: Plot for WHOLESALE
+plot_price_by_type(region_data, "WHOLESALE (PhP/kg)")
+
+# Example: Plot for RETAIL
+plot_price_by_type(region_data, "RETAIL (PhP/kg)")
