@@ -1,0 +1,494 @@
+"Year","Region","Farmgate","Wholesale","Retail"
+1998,"BARMM",8.32,17.21,17.73
+1999,"BARMM",7.8,17.36,17.87
+2000,"BARMM",7.83,16.95,18.15
+2001,"BARMM",7.52,16.8,17.95
+2002,"BARMM",7.55,16.52,17.97
+2003,"BARMM",8.32,15.38,16.85
+2004,"BARMM",9.75,17.55,18.7
+2005,"BARMM",9.5,18.1,19.05
+2006,"BARMM",10.355,19.17,20.68
+2007,"BARMM",11.21,20.56,22.18
+2008,"BARMM",14.17,26.15,28.22
+2009,"BARMM",13.35,28.61,30.13
+2010,"BARMM",15.32,29.26,31.63
+2011,"BARMM",13.28,29.47,32.1
+2012,"BARMM",15.03,31.19,33.39
+2013,"BARMM",14.75,31.24,33.65
+2014,"BARMM",17.77,31.12,35.78
+2015,"BARMM",16.6,30.53,33.66
+2016,"BARMM",17.23,30.59,35.21
+2017,"BARMM",17.5,31.39,33.87
+2018,"BARMM",17.77,45.76,40.71
+2019,"BARMM",16.54,35.68,40.89
+2020,"BARMM",15.82,33.78,39.04
+2021,"BARMM",16.08,33.39,39.15
+2022,"BARMM",17.98,37.375,40.98
+2023,"BARMM",19.35,41.36,45.78
+1999,"Bicol Region",7.35,14.88,16.29
+2000,"Bicol Region",6.88,14.81,16.18
+2001,"Bicol Region",7.4,15.3,16.47
+2002,"Bicol Region",7.4,15.58,16.98
+2003,"Bicol Region",7.89,15.97,17.29
+2004,"Bicol Region",7.92,16.14,17.48
+2005,"Bicol Region",8.05,16.22,17.48
+2006,"Bicol Region",9,18.88,20.23
+2007,"Bicol Region",9.42,18.96,20.7
+2008,"Bicol Region",9.84,19.94,21.78
+2009,"Bicol Region",12.3,26.32,28.54
+2010,"Bicol Region",12.96,27.5,29.54
+2011,"Bicol Region",13.65,27.3,29.4
+2012,"Bicol Region",13.53,27.73,29.61
+2013,"Bicol Region",13.95,28.69,30.08
+2014,"Bicol Region",15,30.69,32.3
+2015,"Bicol Region",17.85,36.93,38.69
+2016,"Bicol Region",14.84,32.23,35.48
+2017,"Bicol Region",15.55,31.77,34.37
+2018,"Bicol Region",16.945,34.08,35.82
+2019,"Bicol Region",18.34,46.43,40.25
+2020,"Bicol Region",15.15,33.79,38.27
+2021,"Bicol Region",15.12,33.59,37.66
+2022,"Bicol Region",15.96,34.75,38.01
+2023,"Bicol Region",17.48,35.58,38.86
+1998,"CALABARZON",8.08,15.78,17.1
+1999,"CALABARZON",7.69,15.75,17.26
+2000,"CALABARZON",7.5,15.91,17.59
+2001,"CALABARZON",7.9,15.99,17.54
+2002,"CALABARZON",8.33,16.53,18
+2003,"CALABARZON",8.7,16.8,18.17
+2004,"CALABARZON",9.36,16.7,18.01
+2005,"CALABARZON",10.1,18.59,20.13
+2006,"CALABARZON",11.36,18.88,20.75
+2007,"CALABARZON",10.96,20.06,21.53
+2008,"CALABARZON",13.79,27.15,28.67
+2009,"CALABARZON",13.97,27.33,29.28
+2010,"CALABARZON",14.02,27.43,29.4
+2011,"CALABARZON",14.09,28,30
+2012,"CALABARZON",14.78,28.76,30.4
+2013,"CALABARZON",15.14,30.67,32.4
+2014,"CALABARZON",18.77,36.83,38.73
+2015,"CALABARZON",15.45,34.34,36.58
+2016,"CALABARZON",15.7,32.83,36.26
+2017,"CALABARZON",14.74,34.78,38.22
+2018,"CALABARZON",19.33,45.56,40.49
+2019,"CALABARZON",15.27,33.64,36.43
+2020,"CALABARZON",15.48,32.92,35.81
+2021,"CALABARZON",15.92,33.43,37.59
+2022,"CALABARZON",16.15,34.76,38.7
+2023,"CALABARZON",18.73,39.27,41.78
+1998,"CAR",8.06,15.42,16.54
+1999,"CAR",8.12,15.79,17.29
+2000,"CAR",8.72,16.38,17.09
+2001,"CAR",8.29,16.34,16.86
+2002,"CAR",8.77,16.81,17.37
+2003,"CAR",8.79,16.48,17.58
+2004,"CAR",9.08,16.7,18.07
+2005,"CAR",10.35,19.29,20.6
+2006,"CAR",10.57,19.91,21.64
+2007,"CAR",10.79,20.9,22.31
+2008,"CAR",14.22,28.71,30.57
+2009,"CAR",15.35,28.32,31.83
+2010,"CAR",14.49,28.53,31.83
+2011,"CAR",15.43,28.85,32.09
+2012,"CAR",16.7,29.42,32.46
+2013,"CAR",17.22,31.36,33.37
+2014,"CAR",21.03,35.75,39.98
+2015,"CAR",18.02,35.7466666666667,39.38
+2016,"CAR",17.62,35.7433333333333,38.43
+2017,"CAR",19.16,35.74,37.87
+2018,"CAR",20.7,35.74,42.15
+2019,"CAR",16.68,35.74,38.56
+2020,"CAR",17.2,35.74,37.71
+2021,"CAR",17.69,35.74,38.02
+2022,"CAR",17.81,35.74,39.2
+2023,"CAR",19.86,35.74,41.98
+1998,"CARAGA",6.27,15.08,16.48
+1999,"CARAGA",6.99,15.3,16.74
+2000,"CARAGA",7.48,16.11,17.41
+2001,"CARAGA",6.96,15.79,17.15
+2002,"CARAGA",7.48,16.19,17.65
+2003,"CARAGA",8,16.51,17.76
+2004,"CARAGA",9.3,17.95,19.57
+2005,"CARAGA",9.6,19.66,21.35
+2006,"CARAGA",10.37,20.37,21.84
+2007,"CARAGA",11.14,22.01,23.13
+2008,"CARAGA",13.01,27.59,29.84
+2009,"CARAGA",13.91,28.805,31.13
+2010,"CARAGA",14.08,30.02,31.73
+2011,"CARAGA",14.38,30.67,31.87
+2012,"CARAGA",15.04,31.53,33.13
+2013,"CARAGA",15.55,33.22,35.38
+2014,"CARAGA",19.12,38.42,40.07
+2015,"CARAGA",17.52,34.8,38.69
+2016,"CARAGA",17.61,33.75,38.09
+2017,"CARAGA",18.58,35.53,39.18
+2018,"CARAGA",19.55,46.44,41.62
+2019,"CARAGA",15.84,33.72,37.82
+2020,"CARAGA",16.14,35.15,37.73
+2021,"CARAGA",15.46,32.22,37.53
+2022,"CARAGA",15.58,32.56,39.2
+2023,"CARAGA",18.98,37.55,42.78
+1998,"Cagayan Valley",7.96,15.35,16.13
+1999,"Cagayan Valley",7.49,15.05,16.04
+2000,"Cagayan Valley",8.34,15.33,16.32
+2001,"Cagayan Valley",7.95,15.66,16.74
+2002,"Cagayan Valley",8.72,16.69,17.32
+2003,"Cagayan Valley",8.59,16.32,17.55
+2004,"Cagayan Valley",8.91,16.91,18.56
+2005,"Cagayan Valley",9.89,18.67,19.8
+2006,"Cagayan Valley",10.535,18.18,19.46
+2007,"Cagayan Valley",11.18,19.86,21.16
+2008,"Cagayan Valley",14.46,27.03,28.92
+2009,"Cagayan Valley",14.97,28.26,30.18
+2010,"Cagayan Valley",14.79,27.71,30.22
+2011,"Cagayan Valley",15.71,27.25,30.49
+2012,"Cagayan Valley",16.11,27.53,30.37
+2013,"Cagayan Valley",17.35,29.96,31.97
+2014,"Cagayan Valley",21.04,37.38,37.89
+2015,"Cagayan Valley",16.45,30.94,35.8
+2016,"Cagayan Valley",16.79,31.36,35.08
+2017,"Cagayan Valley",18.72,34.4,35.86
+2018,"Cagayan Valley",20.65,45.27,37.76
+2019,"Cagayan Valley",16.24,30.6,33.89
+2020,"Cagayan Valley",17.44,29.52,33.58
+2021,"Cagayan Valley",17.6,28.57,35.3
+2022,"Cagayan Valley",17.75,30.21,35.5
+2023,"Cagayan Valley",20.56,34.91,39.49
+1998,"Central Luzon",8.51,15.75,17.03
+1999,"Central Luzon",7.67,15.92,17.4
+2000,"Central Luzon",8.57,16.02,17.45
+2001,"Central Luzon",8.79,16.41,17.85
+2002,"Central Luzon",9.27,16.57,18.3
+2003,"Central Luzon",9.32,16.9,18.21
+2004,"Central Luzon",9.58,17,18.42
+2005,"Central Luzon",11.12,18.29,20.03
+2006,"Central Luzon",11.645,19.25,20.64
+2007,"Central Luzon",12.17,19.67,21.07
+2008,"Central Luzon",15.33,26.67,28.15
+2009,"Central Luzon",15.88,27.62,29.77
+2010,"Central Luzon",15.48,28.24,29.8
+2011,"Central Luzon",17.08,28.56,30.38
+2012,"Central Luzon",17.66,29.26,30.9
+2013,"Central Luzon",18.58,30.1,31.64
+2014,"Central Luzon",22.42,37.6,37.79
+2015,"Central Luzon",18.56,33.96,36.45
+2016,"Central Luzon",17.57,31.18,35.65
+2017,"Central Luzon",19.275,34.57,36.48
+2018,"Central Luzon",20.98,44.54,39.8
+2019,"Central Luzon",15.56,34.89,36.34
+2020,"Central Luzon",16.51,34.93,35.98
+2021,"Central Luzon",17.42,35.07,36.29
+2022,"Central Luzon",17.64,36.19,38.22
+2023,"Central Luzon",21.24,40.33,42.38
+1998,"Central Visayas",7.25,16.4,17.75
+1999,"Central Visayas",8.42,16.23,17.79
+2000,"Central Visayas",9.59,16.82,18.25
+2001,"Central Visayas",8.08,16.34,17.91
+2002,"Central Visayas",9.03,17.12,18.66
+2003,"Central Visayas",10.34,16.85,18.89
+2004,"Central Visayas",10.65,17.96,19.54
+2005,"Central Visayas",11.2966666666667,20.31,22.05
+2006,"Central Visayas",11.9433333333333,20.44,22.48
+2007,"Central Visayas",12.59,21.25,23.68
+2008,"Central Visayas",14.96,29.15,31.28
+2009,"Central Visayas",16.41,28.43,31.18
+2010,"Central Visayas",16.26,28.63,31.28
+2011,"Central Visayas",15.97,29.8,32.39
+2012,"Central Visayas",17.09,30.12,33.02
+2013,"Central Visayas",17.01,32.89,35.46
+2014,"Central Visayas",19.61,37.01,40.08
+2015,"Central Visayas",18.76,34.2,36.74
+2016,"Central Visayas",18.64,32.92,35.59
+2017,"Central Visayas",19.945,35.54,38.79
+2018,"Central Visayas",21.25,45.74,43.12
+2019,"Central Visayas",19.36,36.07,39.77
+2020,"Central Visayas",18.75,37.22,38.26
+2021,"Central Visayas",17.42,36.06,40.55
+2022,"Central Visayas",18.51,38.6,42.31
+2023,"Central Visayas",20.17,43.9,45.58
+1998,"Davao Region",8.26,15.17,16.4
+1999,"Davao Region",8.15,15.11,16.44
+2000,"Davao Region",8.51,15.83,17.03
+2001,"Davao Region",8,14.79,16.36
+2002,"Davao Region",8.47,16.02,17.34
+2003,"Davao Region",8.55,16.07,17.42
+2004,"Davao Region",9.35,17.79,19.25
+2005,"Davao Region",10.01,19.21,20.83
+2006,"Davao Region",10.39,19.42,21.09
+2007,"Davao Region",10.77,21.03,22.28
+2008,"Davao Region",13.28,26.78,28.73
+2009,"Davao Region",14.52,28.25,30.42
+2010,"Davao Region",14.28,28.69,30.56
+2011,"Davao Region",15.47,29.89,31.67
+2012,"Davao Region",16.27,31.32,32.86
+2013,"Davao Region",16.62,32.77,35.11
+2014,"Davao Region",19.58,38.27,39.78
+2015,"Davao Region",18.77,36.82,38.23
+2016,"Davao Region",19.34,39.5,39.36
+2017,"Davao Region",20.325,38.74,41
+2018,"Davao Region",21.31,51.7,43.39
+2019,"Davao Region",17.76,34.38,37.52
+2020,"Davao Region",17.46,34.24,37.41
+2021,"Davao Region",16.54,33.63,37.06
+2022,"Davao Region",17.02,34.07,38.5
+2023,"Davao Region",19.84,40.02,43.44
+1998,"Eastern Visayas",8.44,16.51,17.7
+1999,"Eastern Visayas",7.65,16.74,17.99
+2000,"Eastern Visayas",7.82,16.94,17.9
+2001,"Eastern Visayas",7.53,16.45,17.81
+2002,"Eastern Visayas",7.6,16.98,18.3
+2003,"Eastern Visayas",8.07,17.43,18.5
+2004,"Eastern Visayas",8.64,17.92,19.45
+2005,"Eastern Visayas",9.87,19.84,21.35
+2006,"Eastern Visayas",10.035,20.29,22.04
+2007,"Eastern Visayas",10.2,21.5,22.93
+2008,"Eastern Visayas",13.42,28.49,30.24
+2009,"Eastern Visayas",14.01,29.73,31.97
+2010,"Eastern Visayas",13.93,29.65,31.4
+2011,"Eastern Visayas",13.95,30.57,32.54
+2012,"Eastern Visayas",14.66,30.79,32.71
+2013,"Eastern Visayas",14.89,33.26,35.1
+2014,"Eastern Visayas",17,37.97,40.23
+2015,"Eastern Visayas",16.75,35.54,38.43
+2016,"Eastern Visayas",17.56,33.72,37.57
+2017,"Eastern Visayas",18.57,36.69,38.89
+2018,"Eastern Visayas",19.58,46.9,42.3
+2019,"Eastern Visayas",17.43,36.31,39.26
+2020,"Eastern Visayas",16.1,34.72,37.52
+2021,"Eastern Visayas",16.05,34.81,39.24
+2022,"Eastern Visayas",16.2,36.42,40.4
+2023,"Eastern Visayas",18.22,40.11,43.6
+1998,"Ilocos Region",8.25,15.41,16.35
+1999,"Ilocos Region",8.09,15.48,17.24
+2000,"Ilocos Region",8.56,15.78,17.85
+2001,"Ilocos Region",8.28,15.76,17.88
+2002,"Ilocos Region",8.5,15.91,18.08
+2003,"Ilocos Region",8.76,15.92,18.08
+2004,"Ilocos Region",9.21,16.37,18.06
+2005,"Ilocos Region",10.34,19.11,20.83
+2006,"Ilocos Region",10.995,19.74,21.06
+2007,"Ilocos Region",11.65,19.67,21.49
+2008,"Ilocos Region",15.15,27.53,28.9
+2009,"Ilocos Region",15.63,27.68,28.95
+2010,"Ilocos Region",15.42,28.15,29.66
+2011,"Ilocos Region",16.56,29.28,30.63
+2012,"Ilocos Region",17.27,29.88,31.56
+2013,"Ilocos Region",18.23,30.98,32.72
+2014,"Ilocos Region",21.95,34.95,37.7
+2015,"Ilocos Region",17.87,34.84,36.44
+2016,"Ilocos Region",17.94,33.93,35.56
+2017,"Ilocos Region",19.805,34.1,35.55
+2018,"Ilocos Region",21.67,34.855,39.2
+2019,"Ilocos Region",17.28,35.61,38.03
+2020,"Ilocos Region",17.86,34.16,36.83
+2021,"Ilocos Region",18.58,34.09,36.61
+2022,"Ilocos Region",19.06,35.37,36.7
+2023,"Ilocos Region",21.68,38.16,40.14
+1998,"MIMAROPA",8.08,15.78,17.1
+1999,"MIMAROPA",7.69,15.75,17.26
+2000,"MIMAROPA",7.5,15.91,17.59
+2001,"MIMAROPA",7.9,15.99,17.54
+2002,"MIMAROPA",8.33,16.53,18
+2003,"MIMAROPA",8.77,16.41,17.83
+2004,"MIMAROPA",8.9,16.58,18.14
+2005,"MIMAROPA",10.18,19.26,20.87
+2006,"MIMAROPA",9.97,19.93,21.65
+2007,"MIMAROPA",10.84,20.98,22.63
+2008,"MIMAROPA",13.24,27.35,29.4
+2009,"MIMAROPA",15.02,27.86,30.26
+2010,"MIMAROPA",15.6,28.73,30.56
+2011,"MIMAROPA",15.07,29.44,30.13
+2012,"MIMAROPA",15.78,29.68,31.09
+2013,"MIMAROPA",16.45,31.01,33.22
+2014,"MIMAROPA",19.05,35.94,38.67
+2015,"MIMAROPA",16.63,32.81,35.36
+2016,"MIMAROPA",17.16,31.61,34.57
+2017,"MIMAROPA",14.74,33.56,35.58
+2018,"MIMAROPA",20.17,39.98,40.38
+2019,"MIMAROPA",17.5,35.07,38.43
+2020,"MIMAROPA",16.79,33.65,36.54
+2021,"MIMAROPA",17.2,35.49,37.9
+2022,"MIMAROPA",17.24,36.11,40.25
+2023,"MIMAROPA",19.07,37.05,43.03
+1998,"Metro Manila",8.08,15.68,18
+1999,"Metro Manila",7.69,16.18,18
+2000,"Metro Manila",7.5,17.03,18
+2001,"Metro Manila",7.9,16.41,18
+2002,"Metro Manila",8.33,16.79,18.55
+2003,"Metro Manila",8.56,16.56,18.55
+2004,"Metro Manila",9.17,17.45,18.72
+2005,"Metro Manila",10.07,18.95,20.77
+2006,"Metro Manila",10.645,19.36,21.37
+2007,"Metro Manila",11.22,20.96,22.45
+2008,"Metro Manila",14.13,27.89,30.67
+2009,"Metro Manila",14.67,27.68,30.29
+2010,"Metro Manila",14.87,28.46,30
+2011,"Metro Manila",15.16,28.45,30
+2012,"Metro Manila",16.22,28.58,30
+2013,"Metro Manila",16.93,30.31,32.08
+2014,"Metro Manila",20.07,36.42,39.2
+2015,"Metro Manila",17.33,34,36.69
+2016,"Metro Manila",17.43,32.06,36.34
+2017,"Metro Manila",14.74,35.4,36.55
+2018,"Metro Manila",20.43,43,40.16
+2019,"Metro Manila",16.47,32.73,37.84
+2020,"Metro Manila",16.72,29.86,36.81
+2021,"Metro Manila",16.75,33.62,37.6
+2022,"Metro Manila",17.44,35.02,39.14
+2023,"Metro Manila",19.88,39.38,42.8
+1998,"Northern Mindanao",7.74,16.08,17.51
+1999,"Northern Mindanao",7.54,16.52,18.15
+2000,"Northern Mindanao",7.96,17.24,18.55
+2001,"Northern Mindanao",7.56,16.3,18.31
+2002,"Northern Mindanao",7.96,17.36,18.99
+2003,"Northern Mindanao",8.52,17.68,19.22
+2004,"Northern Mindanao",9.75,18.85,20.32
+2005,"Northern Mindanao",11.03,20.53,21.57
+2006,"Northern Mindanao",11.26,20.51,22.33
+2007,"Northern Mindanao",11.49,21.61,23.59
+2008,"Northern Mindanao",14.53,28.53,30.75
+2009,"Northern Mindanao",14.9,31.03,32.91
+2010,"Northern Mindanao",15.1,29.36,31.95
+2011,"Northern Mindanao",15.9,30.67,32.39
+2012,"Northern Mindanao",16.78,31.76,33.3
+2013,"Northern Mindanao",16.9,32.73,35.03
+2014,"Northern Mindanao",19.68,37.72,39.67
+2015,"Northern Mindanao",19.44,36.46,39.12
+2016,"Northern Mindanao",20.04,36.73,38.73
+2017,"Northern Mindanao",20.615,37.65,39.76
+2018,"Northern Mindanao",21.19,46.49,41.77
+2019,"Northern Mindanao",18.12,44.26,39.01
+2020,"Northern Mindanao",18.21,35.27,38.2
+2021,"Northern Mindanao",17.78,36.01,38.91
+2022,"Northern Mindanao",18.16,36.56,40.11
+2023,"Northern Mindanao",21.37,39.76,44.52
+1998,"Philippines",8.08,15.78,17.1
+1999,"Philippines",7.69,15.75,17.26
+2000,"Philippines",7.5,15.91,17.59
+2001,"Philippines",7.9,15.99,17.54
+2002,"Philippines",8.33,16.53,18
+2003,"Philippines",8.56,16.51,17.95
+2004,"Philippines",9.17,17.3,18.71
+2005,"Philippines",10.07,19.14,20.73
+2006,"Philippines",10.645,19.49,21.28
+2007,"Philippines",11.22,20.66,22.39
+2008,"Philippines",14.13,27.12,29.38
+2009,"Philippines",14.67,28.26,30.69
+2010,"Philippines",14.87,28.46,30.84
+2011,"Philippines",15.16,29.15,31.31
+2012,"Philippines",16.22,30.04,32.08
+2013,"Philippines",16.93,31.56,33.7
+2014,"Philippines",20.07,36.78,38.93
+2015,"Philippines",17.33,34.46,37.06
+2016,"Philippines",17.43,33.69,36.67
+2017,"Philippines",14.74,35.13,37.62
+2018,"Philippines",20.43,45.26,40.86
+2019,"Philippines",16.47,34.43,37.89
+2020,"Philippines",16.72,33.94,36.93
+2021,"Philippines",16.75,33.62,37.6
+2022,"Philippines",17.44,35.02,39.14
+2023,"Philippines",19.88,39.38,42.8
+1998,"SOCCSKSARGEN",8.39,16.03,17.29
+1999,"SOCCSKSARGEN",8.17,16.13,17.31
+2000,"SOCCSKSARGEN",8.42,16.07,17.23
+2001,"SOCCSKSARGEN",8.01,15.31,16.91
+2002,"SOCCSKSARGEN",8.74,16.33,17.79
+2003,"SOCCSKSARGEN",8.94,16.37,18.16
+2004,"SOCCSKSARGEN",9.75,17.41,18.94
+2005,"SOCCSKSARGEN",10.34,18.67,20.8
+2006,"SOCCSKSARGEN",10.99,18.97,20.86
+2007,"SOCCSKSARGEN",11.64,20.84,22.72
+2008,"SOCCSKSARGEN",13.83,25.77,27.96
+2009,"SOCCSKSARGEN",14.97,27.52,29.87
+2010,"SOCCSKSARGEN",15.38,28,30.58
+2011,"SOCCSKSARGEN",16.16,29.28,31.65
+2012,"SOCCSKSARGEN",16.95,30.93,33.3
+2013,"SOCCSKSARGEN",17.23,31.8,34.71
+2014,"SOCCSKSARGEN",19.55,36.4,39.31
+2015,"SOCCSKSARGEN",18.47,34.3,37.5
+2016,"SOCCSKSARGEN",18.95,36.33,39.2
+2017,"SOCCSKSARGEN",19.615,36.98,39.48
+2018,"SOCCSKSARGEN",20.28,44.92,43.18
+2019,"SOCCSKSARGEN",15.87,32.8,37.15
+2020,"SOCCSKSARGEN",16.07,33.73,35.94
+2021,"SOCCSKSARGEN",16.18,32.84,35.55
+2022,"SOCCSKSARGEN",17.28,33.87,38.25
+2023,"SOCCSKSARGEN",19.9,39.32,41.94
+1998,"Southern Tagalog",7.99,16.14,17.63
+1999,"Southern Tagalog",7.69,16.23,17.83
+2000,"Southern Tagalog",8.12,16.13,18.17
+2001,"Southern Tagalog",8.13,16.45,18.38
+2002,"Southern Tagalog",8.3,16.53,18.34
+2003,"Southern Tagalog",8.54,16.62,18.17
+2004,"Southern Tagalog",9.17,16.7,18.01
+2005,"Southern Tagalog",10.07,19.33,20.53
+2006,"Southern Tagalog",10.645,19.985,21.629375
+2007,"Southern Tagalog",11.22,20.64,22.72875
+2008,"Southern Tagalog",14.13,21.295,23.828125
+2009,"Southern Tagalog",14.67,21.95,24.9275
+2010,"Southern Tagalog",14.87,22.605,26.026875
+2011,"Southern Tagalog",15.16,23.26,27.12625
+2012,"Southern Tagalog",16.22,23.915,28.225625
+2013,"Southern Tagalog",16.93,24.57,29.325
+2014,"Southern Tagalog",20.07,25.225,30.424375
+2015,"Southern Tagalog",17.33,25.88,31.52375
+2016,"Southern Tagalog",17.43,26.535,32.623125
+2017,"Southern Tagalog",14.74,27.19,33.7225
+2018,"Southern Tagalog",20.43,27.845,34.821875
+2019,"Southern Tagalog",16.47,28.5,35.92125
+2020,"Southern Tagalog",16.72,29.155,37.020625
+2021,"Southern Tagalog",16.75,29.81,38.12
+2022,"Southern Tagalog",17.44,29.81,38.12
+2023,"Southern Tagalog",19.88,29.81,38.12
+1998,"Western Visayas",8.08,15.5,17.39
+1999,"Western Visayas",7.23,14.59,16.92
+2000,"Western Visayas",7.89,16.1,17.97
+2001,"Western Visayas",7.73,15.74,17.74
+2002,"Western Visayas",8.35,16.13,18.16
+2003,"Western Visayas",8.41,16.02,18.04
+2004,"Western Visayas",8.95,16.17,18.23
+2005,"Western Visayas",10.25,18.65,20.96
+2006,"Western Visayas",10.695,18.18,21.6
+2007,"Western Visayas",11.14,20.06,23.03
+2008,"Western Visayas",13.48,25.28,29.47
+2009,"Western Visayas",13.76,27.23,31.67
+2010,"Western Visayas",14.4,26.82,32.02
+2011,"Western Visayas",13.32,26.58,31.82
+2012,"Western Visayas",15.02,27.57,32.55
+2013,"Western Visayas",15.54,29.93,33.86
+2014,"Western Visayas",18.65,35.88,38.62
+2015,"Western Visayas",16.7,33.25,38.11
+2016,"Western Visayas",16.64,31.84,36.83
+2017,"Western Visayas",14.74,32.23,36.43
+2018,"Western Visayas",20.06,46.77,41.79
+2019,"Western Visayas",16.84,39.915,38.81
+2020,"Western Visayas",16.16,33.06,37
+2021,"Western Visayas",16.01,31.1,36.22
+2022,"Western Visayas",17.81,34.48,38.35
+2023,"Western Visayas",19.84,38.38,41.08
+1998,"Zamboanga Peninsula",7.81,16.23,17.29
+1999,"Zamboanga Peninsula",7.52,15.66,17.33
+2000,"Zamboanga Peninsula",8.26,16.35,17.63
+2001,"Zamboanga Peninsula",7.57,15.99,17.28
+2002,"Zamboanga Peninsula",8.24,16.57,17.42
+2003,"Zamboanga Peninsula",8.65,16.73,17.8
+2004,"Zamboanga Peninsula",9.2,17.93,19.12
+2005,"Zamboanga Peninsula",9.87,19.51,20.76
+2006,"Zamboanga Peninsula",10.88,20.72,21.6
+2007,"Zamboanga Peninsula",11.89,21.79,23.27
+2008,"Zamboanga Peninsula",14.53,28.53,30.75
+2009,"Zamboanga Peninsula",14.9,31.03,32.91
+2010,"Zamboanga Peninsula",14.98,30.5,32.31
+2011,"Zamboanga Peninsula",15.59,31.1,32.75
+2012,"Zamboanga Peninsula",16.97,32.67,34.18
+2013,"Zamboanga Peninsula",17.82,33.57,35.3
+2014,"Zamboanga Peninsula",19.6,36.56,38.09
+2015,"Zamboanga Peninsula",18.22,35.12,37.29
+2016,"Zamboanga Peninsula",19.25,34.84,37.85
+2017,"Zamboanga Peninsula",20.22,35.42,38.01
+2018,"Zamboanga Peninsula",21.19,46.5,41.85
+2019,"Zamboanga Peninsula",18.01,34.97,39.33
+2020,"Zamboanga Peninsula",17.26,33.12,37.66
+2021,"Zamboanga Peninsula",16.09,33.02,37.09
+2022,"Zamboanga Peninsula",17.42,35.1,39.27
+2023,"Zamboanga Peninsula",19.79,41.03,44.3
