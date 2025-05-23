@@ -2,6 +2,7 @@
 # Load required libraries
 library(shiny)
 library(shinydashboard)
+library(shinythemes)
 library(DT)
 library(plotly)
 library(dplyr)
@@ -71,6 +72,7 @@ ui <- dashboardPage(
   dashboardHeader(
     title = "Philippine Rice Price Analytics",
     titleWidth = 300
+    
   ),
   
   dashboardSidebar(
@@ -1167,7 +1169,7 @@ server <- function(input, output, session) {
       geom_point(aes(color = Type), size = 2) +
       geom_ribbon(data = forecast_ribbon, 
                   aes(x = Year, ymin = Lower, ymax = Upper), 
-                  alpha = 0.3, fill = "blue") +
+                  alpha = 0.3, fill = "blue", inherit.aes = FALSE) +      
       labs(
         title = paste("Price Forecast -", input$forecast_region, "-", input$forecast_price_type),
         x = "Year",
@@ -1463,3 +1465,4 @@ server <- function(input, output, session) {
 
 # Run the application
 shinyApp(ui = ui, server = server)
+
