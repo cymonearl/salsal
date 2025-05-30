@@ -1,5 +1,10 @@
 # Enhanced Philippine Rice Price Analytics - R Shiny Application
 # Load required libraries
+
+rsconnect::setAccountInfo(name='monchansub', token='DB1CE5D36333A9046A3E12D7EBA97314', secret='nkmrwqK0l1RsM8ML2whJz2FJSyCEuIx6EFqty4Z8')
+
+
+library(rsconnect)
 library(shiny)
 library(shinydashboard)
 library(shinythemes)
@@ -88,6 +93,7 @@ ui <- dashboardPage(
       menuItem("Forecasting", tabName = "forecasting", icon = icon("chart-area")),
       menuItem("Statistical Tests", tabName = "statistics", icon = icon("calculator")),
       menuItem("Data Table", tabName = "datatable", icon = icon("table")),
+      menuItem("Dashboard Guide", tabName = "guide", icon = icon("hand-pointer")),
       menuItem("About", tabName = "about", icon = icon("info-circle"))
     ),
     
@@ -468,12 +474,13 @@ ui <- dashboardPage(
         tabName = "about",
         fluidRow(
           box(
-            title = "About This Application", status = "primary", solidHeader = TRUE,
-            width = 8,
+            title = "About This Dashboard", status = "primary", solidHeader = TRUE,
+            width = 4,
+            style = "height: 80vh; overflow-y: auto;",
             h3("Philippine Rice Price Analytics Dashboard"),
             p("This comprehensive dashboard provides in-depth analysis of rice price data across different regions in the Philippines. 
-              The application offers multiple analytical perspectives including time series analysis, regional comparisons, 
-              statistical testing, and forecasting capabilities."),
+              The application offers multiple analytical perspectives including time series analysis, regional comparisons, statistical 
+              testing, and forecasting capabilities."),
             
             h4("Key Features:"),
             tags$ul(
@@ -496,11 +503,77 @@ ui <- dashboardPage(
               tags$li("Statistical hypothesis testing (t-tests, normality tests)"),
               tags$li("Correlation and regression analysis"),
               tags$li("Outlier detection and data quality assessment")
-            )
+            ),
+            
+            h3("What Key Questions Can This Dashboard Help You Answer?"),
+            p("This tool can help various stakeholders address critical questions, such as:"),
+            p("For Policymakers & Government Agencies:"),
+            tags$ul(
+              tags$li("For Policymakers & Government Agencies:"),
+              tags$li("How are rice prices trending nationally and in specific regions?"),
+              tags$li("Which regions are experiencing unusually high, low, or volatile prices that might require intervention or investigation?"),
+              tags$li("What are the typical price margins between farmgate, wholesale, and retail? Are these margins stable or changing?"),
+              tags$li("Can we identify potential market inefficiencies or areas with excessive price markups?"),
+              tags$li("What are the short-term price forecasts, and how can these inform food security planning?")
+            ),
+            p("For Agricultural Stakeholders (Farmers, Cooperatives, Traders):"),
+            tags$ul(
+              tags$li("What are the historical price levels for farmgate, wholesale, and retail in my region of operation?"),
+              tags$li("How do prices in my region compare to others or the national average?"),
+              tags$li("What are the typical margins I can expect?"),
+              tags$li("Are there discernible patterns or trends that can inform selling or buying decisions?"),
+              ),
+            p("For Researchers & Analysts:"),
+            tags$ul(
+              tags$li("What is the statistical nature of rice price data (distribution, stationarity)?"),
+              tags$li("How do prices correlate across different levels (farmgate, wholesale, retail) and regions?"),
+              tags$li("What are the spatial patterns of rice prices across the country?"),
+              tags$li("Can we test hypotheses about price differences between regions or over time?"),
+              ),
+            p("For Consumers & Advocacy Groups:"),
+            tags$ul(
+              tags$li("How have retail rice prices changed over time in my area?"),
+              tags$li("How do prices in my region compare to national averages?"),
+              )
           ),
+          
+          box(
+            title = "About Our Data", solidHeader = TRUE, status = "info",
+            width = 4,
+            style = "height: 80vh; overflow-y: auto;",
+            h4("Data Sources"),
+            p("The data presented includes farmgate, wholesale, and retail rice prices from various Philippine regions, 
+              spanning multiple years to facilitate comprehensive trend analysis. These data points were carefully aggregated 
+              from multiple original sources."),
+            h4("Data Preperation and Cleaning"),
+            p("The entire data preparation pipeline, from initial sourcing to final structuring, 
+               was conducted using the R programming language. A significant effort was dedicated to ensuring data quality:"),
+            tags$ul(
+            tags$li("Missing values (NAs) were systematically addressed using the imputeTS R package, which specializes in time series imputation.")
+            ),
+            h4("Specific Handling for Southern Tagalog Region"),
+            p("Users viewing the 'Trends' tab will observe that the data for the historical Southern 
+              Tagalog region is represented as a highly linear trend. This is a result of a specific data treatment strategy:"),
+            h4("Historical Context"),
+            p("The Southern Tagalog region, as a single administrative unit, existed until its division in 2002 under",
+              a("Executive Order No. 103", href = "https://lawphil.net/executive/execord/eo2002/eo_103_2002.html",
+                target = "_blank"), "
+              It originally comprised areas now known as Calabarzon, Mimaropa, 
+              the province of Aurora, and parts of Metro Manila."
+            ),
+            h4("Data Availability"),
+            p("Comprehensive historical data for the undivided Southern Tagalog entity was largely 
+            unavailable for the period covered."),
+            h4("Our Approach"), 
+            p("To represent this historical region, its data points were derived from the national average for the Philippines. 
+              While this results in a trend reflecting the national aggregate, it acknowledges the region's historical significance 
+              within the dataset's temporal scope.")
+          ),
+          
           box(
             title = "Technical Information", status = "info", solidHeader = TRUE,
             width = 4,
+            style = "height: 80vh; overflow-y: auto;",
             h4("Built With:"),
             tags$ul(
               tags$li("R Shiny Framework"),
@@ -511,8 +584,8 @@ ui <- dashboardPage(
             ),
             
             h4("Version Information:"),
-            p("Version: 2.0"),
-            p("Last Updated: ", Sys.Date()),
+            p("Version: 1.0"),
+            p("Last Updated: ", "May 26 2025"),
             
             h4("Contact:"),
             p(
@@ -522,11 +595,83 @@ ui <- dashboardPage(
                 target = "_blank")
             ),
             
-            h4("Disclaimer:"),
-            p("This tool is for analytical purposes. Users should validate 
-              findings with official sources before making policy decisions.")
+            h4("Source:"),
+             p(
+              a("Farmgate Data", href = "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__FG/0032M4AFP01.px/?rxid=bdf9d8da-96f1-4100-ae09-18cb3eaeb313",
+                target = "_blank")
+              , br(),
+              a("Wholesale Data", href = "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__WS/0052M4AWP01.px/?rxid=bdf9d8da-96f1-4100-ae09-18cb3eaeb313",
+                target = "_blank")
+              , br(),
+              a("Retail Data", href = "https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__RP/0042M4ARP01.px/?rxid=bdf9d8da-96f1-4100-ae09-18cb3eaeb313",
+                target = "_blank")
+              , br(),
+              a("Aggregate Data", href = "https://www.kaggle.com/code/monmamon/farmgate-price#Compare-the-Eastern-Visayas-Region-to-the-Philippines",
+                target = "_blank")
+              , br(),
+              a("Json for Mapping", href = "https://simplemaps.com/gis/country/ph ",
+                target = "_blank")
+             )
           )
         )
+      ),
+      
+      tabItem(
+        tabName = "guide",
+        title = "Dashboard Guide",
+        icon = icon("hand-pointer"),
+          fluidRow(
+            box(
+              width = 12,
+              style = "height: 90vh; overflow-y: auto;",
+              title = "Key Components & How to Use Them:", status = "primary", solidHeader = TRUE,
+              h4("Filters (Found in the Left Sidebar):"),
+              tags$ul(
+                tags$li( tags$b("Region Filter:"), " Select one or more regions to focus your analysis."),
+                tags$li( tags$b("Year Range:"), " Define the time period for your analysis using the slider."),
+                tags$li( tags$b("Price Type:"), " Choose between Farmgate, Wholesale, or Retail prices. This selection affects 
+                         many of the visualizations and analyses throughout the dashboard."),
+              ),
+              h4("Dashboard Tabs (Navigation Menu):"),
+              p(tags$b("Overview:")),
+              p("Provides a high-level summary including average prices, overall trends across selected regions,", br(), 
+                "regional price distributions for the latest year, top regions by price, and growth rates."),
+              p(tags$b("Regional Analysis:")),
+              p("Allows for direct comparison of price trends among selected regions, displays summary statistics", br(), " 
+                (mean, median, SD, min, max) per region, and visualizes price volatility (Coefficient of Variation)."),
+              p(tags$b("Choropleth Map:")),
+              p("Offers a geographical visualization of prices. Select a year and price type to see how prices vary", br(), " 
+              across the Philippine map, with darker colors indicating higher prices."),
+              p(tags$b("Time Series:")),
+              p("Focuses on temporal patterns, showing detailed price trends over time for selected regions and analyzing", br(), " 
+                year-over-year growth. The 'Seasonal Patterns' plot in this version aggregates data into 5-year periods to", br(), " 
+                show broader epochal shifts rather than strict intra-year seasonality."),
+              p(tags$b("Price Comparison:")),
+              p("Compares Farmgate, Wholesale, and Retail prices side-by-side for each selected region.", br(), " 
+                It also includes a correlation plot for these price types and a spread analysis (max-min price difference over time)."),
+              p(tags$b("Margin Analysis:")),
+              p("Examines the price differences (margins) between Farmgate-to-Wholesale,", br(), " 
+                Wholesale-to-Retail, and the total Farmgate-to-Retail price. You can see how these margins", br(), " 
+                evolve over time and compare average margins by region."),
+              p(tags$b("Data Exploration:")),
+              p("Provides tools for a deeper dive into the dataset, including statistical summaries, a plot of missing data,", br(), " 
+                distribution analysis for different price types, boxplots for outlier detection, and a correlation heatmap of", br(), " 
+                all numeric price and margin variables."),
+              p(tags$b("Forecasting:")),
+              p("Enables users to generate short-term price forecasts for a selected region and price type using", br(), " 
+                statistical models (ARIMA, ETS). It displays the forecast plot, accuracy metrics, and model diagnostic plots."),
+              p(tags$b("Statistical Tests: ")),
+              p("Allows users to perform basic statistical tests, such as normality tests", br(), " 
+                (Shapiro-Wilk, Kolmogorov-Smirnov), stationarity tests (ADF, KPSS), and t-tests for comparing price 
+                differences between two selected regions."),
+              p(tags$b("Data Table: ")),
+              p("Displays the underlying (filtered) dataset in an interactive tabular format, allowing for sorting and searching."),
+              p(tags$b("Dashboard Guide: ")),
+              p(" Explains the purpose, features, and potential uses of this dashboard."),
+              p(tags$b("About:")),
+              p("Provides information about the data sources, general methodology, technical details, and contact information"),
+            )
+          )
       )
     )
   )

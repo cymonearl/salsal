@@ -1,0 +1,12 @@
+name: enhanced_rice_app
+title:
+username: monchansub
+account: monchansub
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14813648
+bundleId: 10341712
+url: https://monchansub.shinyapps.io/enhanced_rice_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
